@@ -19,7 +19,7 @@ public class StudentController {
     private static final List<Student> students = Arrays.asList(
             new Student(1, "Demilade Oladugba"),
             new Student(2, "Temilade Oladugba"),
-            new Student(1, "Toluwalase Oladugba")
+            new Student(3, "Toluwalase Oladugba")
     );
 
     @GetMapping(value = "{id}")
