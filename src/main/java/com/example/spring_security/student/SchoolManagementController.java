@@ -14,7 +14,10 @@ import java.util.List;
 @RequestMapping("/management/api/v1/student")
 public class SchoolManagementController {
 
-    private static final List<Student> students = Arrays.asList(new Student(1, "Demilade Oladugba"), new Student(2, "Temilade Oladugba"), new Student(3, "Toluwalase Oladugba"));
+    private static final List<Student> students = Arrays.asList(
+            new Student(1, "Demilade Oladugba"),
+            new Student(2, "Temilade Oladugba"),
+            new Student(3, "Toluwalase Oladugba"));
 
     /*
      * @PreAuthorize takes
